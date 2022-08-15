@@ -1,0 +1,7 @@
+
+<%= @arrayalph  %>
+<form action="/score" data-turbo="false">
+  <input type="text" name="rep">
+  <input type="submit" value="score!">
+  <input type="hidden" name="lettre" value="<%= @arrayalph.join  %>">
+</form>
